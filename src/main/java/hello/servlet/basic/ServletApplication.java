@@ -1,4 +1,4 @@
-package hello.servlet;
+package hello.servlet.basic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,4 @@ public class ServletApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ServletApplication.class, args);
 	}
-
-
-
 }

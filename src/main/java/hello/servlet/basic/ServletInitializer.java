@@ -1,4 +1,4 @@
-package hello.servlet;
+package hello.servlet.basic;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
