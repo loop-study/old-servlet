@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "mvcMemberSaveServlet", urlPatterns = "/servlet-mvc/members/save")
+@WebServlet(name = "mvcMemberListServlet", urlPatterns = "/servlet-mvc/members/save")
 public class MvcMemberListServlet extends HttpServlet {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
